@@ -198,9 +198,10 @@
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 180px) {
     .board {
       grid-template-columns: 1fr;
       max-width: 300px;
     }
   }
+
