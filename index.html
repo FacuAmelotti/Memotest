@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memotest</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+
+            <button class="restart-button">Reiniciar</button>
+
+    </nav>
+    
+    <div class="header">
+        <h2 class="moves">Movimientos: <span id="moves">0</span></h2>      
+        <h2 class="timer">Cronómetro: <span id="timer">0:00</span></h2>
+        <h2 class="correct-guesses">Aciertos: <span id="correctGuesses">0</span></h2>
+    </div>
+    
+    <div class="board" id="board"></div>
+    
+    <div id="victoryMessage" class="victory-message">
+        <h2>¡Felicidades, has ganado!</h2>
+        <button onclick="resetGame()">Reiniciar</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
